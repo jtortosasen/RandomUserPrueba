@@ -1,0 +1,84 @@
+[versions]
+# Plugins
+agp = "8.3.0"
+kotlin = "1.9.22"
+jvm = "1.9.21"
+parcelize = "1.9.22"
+#Libraries
+appcompat = "1.6.1"
+core-ktx = "1.12.0"
+lifecycle-runtime = "2.7.0"
+compose-bom = "2024.02.01"
+navigation-compose = "2.7.7"
+coil-compose = "2.4.0"
+koin = "3.4.2"
+kotlinx-serialization-json = "1.6.2"
+ktor-client = "2.3.2"
+arrow = "1.2.0-RC"
+espresso = "3.5.1"
+androidx-junit = "1.1.5"
+junit = "4.13.2"
+kermit = "2.0.2"
+slf4j-nop = "2.0.11"
+kotlinx-coroutines-slf4j = "1.8.0-RC2"
+
+
+[plugins]
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinParcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "parcelize" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "jvm"}
+jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jvm"}
+
+[libraries]
+# Android SDK
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version.ref = "appcompat" }
+
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle-runtime" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose" }
+
+# Compose
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+androidx-compose-material = { group = "androidx.compose.material", name = "material" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
+
+# Coil
+coil = { group = "io.coil-kt", name = "coil", version.ref = "coil-compose" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil-compose" }
+
+# Koin
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+koin-androidx-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
+koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
+
+# Ktor
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+ktor-client-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor-client" }
+ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor-client" }
+ktor-client-mock = { group = "io.ktor", name = "ktor-client-mock", version.ref = "ktor-client" }
+ktor-client-okhttp = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktor-client" }
+ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktor-client"}
+ktor-serialization-kotlinx-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor-client" }
+
+kermit = { group = "co.touchlab", name = "kermit", version.ref = "kermit" }
+kotlinx-coroutines-slf4j = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-slf4j", version.ref = "kotlinx-coroutines-slf4j" }
+# Disable SLF4J error messages
+slf4j-nop = { group = "org.slf4j", name = "slf4j-nop", version.ref = "slf4j-nop" }
+
+# Arrow
+arrow-kt-stack = { group = "io.arrow-kt", name = "arrow-stack", version.ref = "arrow" }
+arrow-kt-core = { group = "io.arrow-kt", name = "arrow-core" }
+
+# Testing
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }

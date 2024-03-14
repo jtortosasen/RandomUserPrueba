@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RandomUserApp</string>
+
+    <string name="search_label">Buscar usuario</string>
+    <string name="clean_label_content_description">Limpiar búsqueda</string>
+    <string name="search_no_users_found">No se han encontrado usuarios</string>
+    <string name="search_topbar_content_description">Buscar</string>
+    <string name="topbar_headline">CONTACTOS</string>
+    <string name="topbar_navigation_content_description">Atrás</string>
+
+    <string name="error_server_message">Buscar usuario</string>
+
+
+</resources>
