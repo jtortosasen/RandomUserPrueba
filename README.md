@@ -18,10 +18,7 @@ Módulos:
 - Se utiliza como ejemplo la deserialización manual y automática
 - Se ha utilizado un fake map en vez de utilizar la librería compose oficial de Maps.
 
-## Mejoras Pendientes y Posibles
-
-Aquí puedes listar las cosas que faltan o que podrían mejorarse en tu proyecto. Por ejemplo:
-
+## Mejoras Pendientes por falta de tiempo
 - Utilización de base de datos local como origen único de la información para simplificar el flujo y la navegación y añadir persistencia, a utilizar SQLDelight
 - Implementación de tests unitarios para data y test e2e visuales (UI Tests) con Maestro
 - Simplificación de varios composables, componente de búsqueda extraido junto con un viewmodel exclusivo para la búsqueda
