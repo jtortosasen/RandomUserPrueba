@@ -26,4 +26,5 @@ uests HTTP
 - Implementación de tests unitarios para data y test e2e visuales (UI Tests) con Maestro
 - Simplificación de varios composables, componente de búsqueda extraido junto con un viewmodel exclusivo para la búsqueda
 
-https://github.com/jtortosasen/RandomUserPrueba/assets/26440994/f118cecc-344e-4401-b253-f7143d6f0c04
+https://github.com/jtortosasen/RandomUserPrueba/assets/26440994/37cf0e3f-ae54-4fa8-a6c9-3881fac04a50
+
