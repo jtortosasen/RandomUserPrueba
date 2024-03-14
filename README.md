@@ -12,10 +12,7 @@ Módulos:
 - Se ha ahorrado el uso de UseCases para simplificar la cantidad de componentes innecesarios
 - No se usa un módulo específico para BuildSrc con conventions como plugins
 - Se ha utilizado Koin como DI
-- Se ha utilizado Ktor como librería para req
-
-
-uests HTTP
+- Se ha utilizado Ktor como librería para requests HTTP
 - La paginación se resuelve de forma manual, sin necesidad de usar Paging3
 - Se ha simplificado la navegación usado el bundle por ahorrar tiempo
 - Se utiliza como ejemplo la deserialización manual y automática
